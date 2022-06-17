@@ -11,6 +11,92 @@
 </head>
 
 <body>
+  <div class="container">
+    <form class="border border-x">
+      <fieldset>
+        <legend class="bg-info text-white border-bottom border-x ps-3">Sistema de Biblioteca</legend>
+        <div class="row ps-2 pe-2 pb-2">
+          <!--Acordeon de autores, libros y editoriales-->
+          <div class="col-12 col-sm-3">
+            <!--Autores-->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="elementoAcordeonAutores">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#contenidoAcordeonAutores" aria-expanded="true" aria-controls="contenidoAcordeonAutores">
+                  Autores
+                </button>
+              </h2>
+              <div id="contenidoAcordeonAutores" class="accordion-collapse collapse show" aria-labelledby="elementoAcordeonAutores">
+                <div class="accordion-body">
+                  <div class="d-flex justify-content-center">
+                    <button type="button" class="btn btn-success me-1 w-50">Nuevo</button>
+                    <button type="button" class="btn btn-danger ms-1 w-50">Borrar</button>
+                  </div>
+                  <div class="mt-3">
+                    <select class="form-select" size="8" aria-label="autores">
+                      <option value="1">Allan Poe</option>
+                      <option value="2">Mark Twain</option>
+                      <option value="3">Lewis Carro</option>
+                      <option value="4">Isabel Alle</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--Libros-->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="elementoAcordeonLibros">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#contenidoAcordeonLibros" aria-expanded="true" aria-controls="contenidoAcordeonLibros">
+                  Libros
+                </button>
+              </h2>
+              <div id="contenidoAcordeonLibros" class="accordion-collapse collapse" aria-labelledby="elementoAcordeonLibros">
+                <div class="accordion-body">
+                  <div class="d-flex justify-content-center">
+                    <button type="button" class="btn btn-success me-1 w-50">Nuevo</button>
+                    <button type="button" class="btn btn-danger ms-1 w-50">Borrar</button>
+                  </div>
+                  <div class="mt-3">
+                    <select class="form-select" size="8" aria-label="Libros">
+                      <option value="1">La casa de</option>
+                      <option value="2">El conde Dr</option>
+                      <option value="3">Las aventur</option>
+                      <option value="4">Alicia en e</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--Editoriales-->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="elementoAcordeonEditorialess">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#contenidoAcordeonEditoriales" aria-expanded="true" aria-controls="contenidoAcordeonEditoriales">
+                  Editoriales
+                </button>
+              </h2>
+              <div id="contenidoAcordeonEditoriales" class="accordion-collapse collapse" aria-labelledby="elementoAcordeonEditoriales">
+                <div class="accordion-body">
+                  <div class="d-flex justify-content-center">
+                    <button type="button" class="btn btn-success me-1 w-50">Nuevo</button>
+                    <button type="button" class="btn btn-danger ms-1 w-50">Borrar</button>
+                  </div>
+                  <div class="mt-3">
+                    <select class="form-select" size="8" aria-label="Editoriales">
+                      <option value="1">Editorial 1</option>
+                      <option value="2">Editorial 2</option>
+                      <option value="3">Editorial 3</option>
+                      <option value="4">Editorial 4</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--Pestañas de autores, libros y editoriales-->
+          <div class="col-12 col-sm-9"></div>
+        </div>
+      </fieldset>
+    </form>
+  </div>
   <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 
