@@ -24,4 +24,4 @@ Podrá acceder al repositorio de la tarea 5 en la siguiente dirección web:
 	https://github.com/DavidRojasChavarriaUNA/Dise-o-de-sitios-web---Tarea-5.git
 Sitio web
 Podrá acceder al sitio web de la tarea 5 en la siguiente dirección web:
-	https://davidrojaschavarria-diseniositiosweb-tarea4.netlify.app/
+	https://davidrojaschavarria-diseniositiosweb-tarea5.netlify.app/
